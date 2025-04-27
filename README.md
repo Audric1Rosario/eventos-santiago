@@ -9,7 +9,7 @@
 
 [![Eventos Santiago – Proyecto de Programación Web Avanzada](http://img.youtube.com/vi/tw6RCLD3xQA/0.jpg)](https://www.youtube.com/watch?v=tw6RCLD3xQA&ab_channel=AudricRosario "Eventos Santiago")
 
-En este proyecto, se implementa una arquitectura de microservicios con el motivo de crecer de forma horizontal, para garantizar alta disponbilidad y rendimiento.
+En este proyecto, se implementa una arquitectura de microservicios con el motivo de crecer de forma horizontal, para garantizar alta disponibilidad y rendimiento.
 
 Para lograr esto, se utilizan los recursos de Spring Boot Cloud.
 
@@ -21,7 +21,7 @@ Para lograr esto, se utilizan los recursos de Spring Boot Cloud.
     - Base Compra
     - Base Notificaciones
 - Spring Cloud Gateway (Enrutamiento dinámico)
-- Spring Cloud Netflix Eureka Server (Balanceador de carga)
+- Spring Cloud Netflix Eureka Server (Descubrimiento y balanceador de carga)
 - Spring Boot Actuator (Monitoreo de instancias de la aplicación)
 - Spring Cloud Config Server (Centralización de la configuración de la instancias)
 - Base de datos MySQL Server
