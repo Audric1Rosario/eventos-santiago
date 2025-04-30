@@ -1,11 +1,16 @@
 # Photography Services Website - Advanced Web Programming Project - November 2021
 
-## Elaborado por
+## Made by
 
 - Audric Rosario
 - Zheng Peng Li
 
-### Features
+### This README is available in
+
+- [English](README.md)
+- [Spanish](README-ES.md)
+
+### Presentation
 
 [![Eventos Santiago – Advanced Web Programming Project](http://img.youtube.com/vi/tw6RCLD3xQA/0.jpg)](https://www.youtube.com/watch?v=tw6RCLD3xQA&ab_channel=AudricRosario "Eventos Santiago")
 

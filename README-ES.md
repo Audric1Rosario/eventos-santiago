@@ -5,6 +5,11 @@
 - Audric Rosario
 - Zheng Peng Li
 
+### Este README está disponible en
+
+- [Español](README-ES.md)
+- [Inglés](README.md)
+
 ### Presentación
 
 [![Eventos Santiago – Proyecto de Programación Web Avanzada](http://img.youtube.com/vi/tw6RCLD3xQA/0.jpg)](https://www.youtube.com/watch?v=tw6RCLD3xQA&ab_channel=AudricRosario "Eventos Santiago")
