@@ -1,4 +1,4 @@
-# Photography Services Website - Advanced Web Programming Project - November 2021
+# Photography Services Website - Advanced Web Development Project - November 2021
 
 ## Made by
 
