@@ -1,117 +1,117 @@
-# Eventos Santiago - Proyecto de Programación Web Avanzada - Noviembre de 2021
+# Photography Services Website - Advanced Web Programming Project - November 2021
 
 ## Elaborado por
 
 - Audric Rosario
 - Zheng Peng Li
 
-### Presentación
+### Features
 
-[![Eventos Santiago – Proyecto de Programación Web Avanzada](http://img.youtube.com/vi/tw6RCLD3xQA/0.jpg)](https://www.youtube.com/watch?v=tw6RCLD3xQA&ab_channel=AudricRosario "Eventos Santiago")
+[![Eventos Santiago – Advanced Web Programming Project](http://img.youtube.com/vi/tw6RCLD3xQA/0.jpg)](https://www.youtube.com/watch?v=tw6RCLD3xQA&ab_channel=AudricRosario "Eventos Santiago")
 
-En este proyecto, se implementa una arquitectura de microservicios con el motivo de crecer de forma horizontal, para garantizar alta disponbilidad y rendimiento.
+In this project, a microservices architecture is implemented to scale horizontally and ensure high availability and performance.
 
-Para lograr esto, se utilizan los recursos de Spring Boot Cloud.
+To achieve this we used Spring Boot Cloud Services.
 
-### Utiliza
+### Features
 
-- Springboot v2.5 (Backend) (Aplicación)
-  - Instancias (3 de cada uno):
-    - Base Usuario
-    - Base Compra
-    - Base Notificaciones
-- Spring Cloud Gateway (Enrutamiento dinámico)
-- Spring Cloud Netflix Eureka Server (Balanceador de carga)
-- Spring Boot Actuator (Monitoreo de instancias de la aplicación)
-- Spring Cloud Config Server (Centralización de la configuración de la instancias)
-- Base de datos MySQL Server
+- Springboot v2.5 (Backend) (App)
+  - Instances (3 ea):
+    - User Base
+    - Purchase Base
+    - Notification Base
+- Spring Cloud Gateway (Dynamic Routing)
+- Spring Cloud Netflix Eureka Server (Load Balancer)
+- Spring Boot Actuator (Application Instance Monitoring)
+- Spring Cloud Config Server (Instance Configuration Centralization)
+- MySQL Server Database
 - Java Web Token (JWT)
 - Java Mail API
 - Docker
-  - Configuración: Docker Compose
+  - Configuration: Docker Compose
 
-### Diseño del Proyecto
+### Project Design
 
-![Diseño del proyecto](readme/0-project-design.png)
+![Project Design](readme/0-project-design.png)
 
-### Página Principal
+### Main page
 
-![Página principal 1](readme/1-main-page.png)
+![Main page 1](readme/1-main-page.png)
 
-![Página principal 2](readme/2-main-page-2.png)
+![Main page 2](readme/2-main-page-2.png)
 
-### Inicio de sesión
+### Log in
 
-- Inicio
+- Log in
 
-  ![Inicio de sesión](readme/3-login.png)
+  ![Log in](readme/3-login.png)
 
-- Registro
+- Sign Up
 
-  ![Registro de usuario](readme/4-signup.png)
+  ![Sign Up](readme/4-signup.png)
 
-- Correo de registro exitoso
+- Registration success email
 
-  ![Registro exitoso](readme/5-mail-successful-signup.png)
+  ![Registration success email](readme/5-mail-successful-signup.png)
 
-- Página principal después de iniciar sesión
+- Home page after login
 
-  ![Página luego de inicio](readme/6-main-page-signup.png)
+  ![Home page after login](readme/6-main-page-signup.png)
 
-### Vistas del cliente
+### Client Views
 
-- Tienda
+- Shop
 
-  ![Tienda](readme/7-shop-client.png)
+  ![Shop](readme/7-shop-client.png)
 
-- Historial de compra
+- Purchases History
 
-  ![Historial](readme/8-client-history.png)
+  ![Purchases History](readme/8-client-history.png)
 
-- Facturación
+- Billing
 
-  ![Factura](readme/9-billing.png)
+  ![Billing](readme/9-billing.png)
 
-- Perfil de usuario
+- User's profile
 
-  ![Perfil de usuario](readme/10-profile.png)
+  ![User's profile](readme/10-profile.png)
 
-### Vistas del administrador
+### Admin Views
 
 - Dashboard
 
   ![Dashboard](readme/11-admin-dashboard.png)
 
-- Control de usuarios
+- User CRUD
 
   ![Control](readme/12-admin-user-control.png)
 
-  Cambio de datos del usuario
+  Update user
 
-  ![Cambio](readme/13-change-user.png)
+  ![Update user](readme/13-change-user.png)
 
-  Cambio de autoridad de usuario
+  Change authority
 
-  ![Autoridad](readme/14-authority.png)
+  ![Authority 1](readme/14-authority.png)
 
-  ![Autoridad](readme/15-authority-changed.png)
+  ![Authority 2](readme/15-authority-changed.png)
 
-  Eliminar usuario
+  Delete User
 
-  ![Diseño del Proyecto](readme/16-delete-user.png)
+  ![Delete User](readme/16-delete-user.png)
 
-- Órdenes de compra
+- Purchase Orders
 
-  ![Diseño del Proyecto](readme/17-orders.png)
+  ![Purchase Orders](readme/17-orders.png)
 
-- Historial de ventas
+- Sales History
 
-  ![Diseño del Proyecto](readme/18-sales-history.png)
+  ![Sales History](readme/18-sales-history.png)
 
-### Preparación de microservicios
+### Microservices
 
-- Levantar servidores con docker compose, desde "api-gateway.yml"
+- Set up servers with Docker Compose, from "api-gateway.yml"
 
-  ![Diseño del Proyecto](readme/19-setting-up-microservices.png)
+  ![Docker Compose running](readme/19-setting-up-microservices.png)
 
-  ![Diseño del Proyecto](readme/20-microservices.png)
+  ![Microservices up, Docker UI](readme/20-microservices.png)
